@@ -9,11 +9,14 @@
 
 ## SAMPLE CODE
 
- import './LendingPool.sol'; <br />
- LendingPool public obj ; <br />
- constructor(address _address){ <br />
- 	obj = LendingPool(_address);  <br />
- } <br />
-     uint16 public stableAPY = obj.stableAPY(); <br />
- uint16 public tenure = obj.tenure();<br />
- uint public minimumDeposit = obj.minimumDeposit();<br />
+
+
+### 
+    import './LendingPool.sol'; 
+    LendingPool public obj ; 
+    constructor(address _address){ 
+    obj = LendingPool(_address); }
+    uint16 public tenure = obj.tenure();
+    uint16 public stableAPY = obj.stableAPY();
+    uint public minimumDeposit = obj.minimumDeposit();
+    
