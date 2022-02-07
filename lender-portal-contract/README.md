@@ -7,10 +7,7 @@
  5. Lenders can withdraw the amount for a particular round if the tenure of that round is over.
  6. newRound and withdraw can be called by only owner. So user have to approve the transfer for this contract address for new round.  There must be some interface(UI) to tell polytrade that user want to lend or withdraw. Then it will called later by the owner.
 
-## SAMPLE CODE
-
-
-
+## SAMPLE CODE 
 ### 
     import './LendingPool.sol'; 
     LendingPool public obj ; 

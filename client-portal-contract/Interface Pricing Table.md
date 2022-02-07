@@ -51,29 +51,22 @@ Only Owner is authorized to add a Pricing Item
      * @param id, id of the pricing Item
      * @return returns boolean if pricing is valid or not
 
-Returns if the pricing Item is valid
-
-## NewPricingItem
-### `NewPricingItem(struct IPricingTable.PricingItem id)`
 
 
-### `UpdatedPricingItem(struct IPricingTable.PricingItem id)`
-
-### `RemovedPricingItem(bytes2 id)`
 
 ## PricingItem
 ### `PricingItem`
 
-uint8 minTenure
+     uint8 minTenure
 
-uint8 maxTenure
+     uint8 maxTenure
 
-uint16 maxAdvancedRatio
+     uint16 maxAdvancedRatio
 
-uint16 minDiscountFee
+     uint16 minDiscountFee
 
-uint16 minFactoringFee
+     uint16 minFactoringFee
 
-uint256 minAmount
+     uint256 minAmount
 
-uint256 maxAmount
+     uint256 maxAmount

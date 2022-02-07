@@ -1,6 +1,7 @@
 # Summary
 Client Portal Contracts
 -----------------------
+
 	=> Used to upload invoices on smart contract and deals with the offer and pricing.
 	Chainlink => It acts like an oracle to get price feed. 
 	Pricing table =>
